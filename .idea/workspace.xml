@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5ec7d2f-a79a-4988-8753-b6648bea9a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/CartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CommentRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/Components/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/admins/sRAYo6SrJTAnzqaZ6FlLgIBo0AIte31LZkT2QcYb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/products/DwPck5jaFKUZYcJ87WaVDFymx3veju2k7TNntECb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/users/ZAjpa1SnKHGH0aDbAyPoYDPY1CYenPbwlp3nrSWg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/site/js/sweetalert.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/sweetalert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/sweetalert/sweetalert.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comments/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/orders/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/orders/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/cart/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/includes/alerts/errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/includes/alerts/success.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/sweetalert/alert.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eunoia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eunoia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CommentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CommentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ContactsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/OrdersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/1G4cB0q3GNSaSWW15IJHmN3JcAXdn4By65SdmKJi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/4WGSLLNMcmlrpBQKeYWwSJXCxRNZSAKJAD3RXlyD.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/BI0C0ZqzyPJaPFoSzAWVNVVOsQMns4WImTibvoMF.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/E5grNzNMevUflKzqxfodeelJdSo5O2TsnVjgklV7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/ERT9wFBHZsoo0WPpdZiVueoK04lFXMtUkwP4vhjD.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/N0ILHZ9lVLlirXHP7GXpVIjyWnObW5VLzEaMEjCX.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/jc8pGLgfYAwrb5HKLnEGgQkz3EVGyrThekU2B5Bn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/otFWmyCSsudqK2VEsnd1VtbyESvyMPHzFaHbOnpv.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/qjK3nVDenPBEfavxSxwVL3iM1wkVne5tPHSJi0PK.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/admins/w0PtyxRxJrB4K9jTPXYXSa9f3cZBjyjLgmCET90E.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/appointments/al.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/appointments/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blogs/nntOa530kJuQoGwQBtbdukUPf6EqleK7Uk7Gcdgf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/3kNi4nCdhS0pWhvsoy8QbrDfLyyjVZihlx5u46wN.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/4yRiSmryEWklrcglc6QepBnAdWpEQv9vY0ryjywO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/KKnxkTo1KAlJZpxTN07FcWhMdfRnbfg4YVVJNBwd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/PDmIZoScybdlsSXxjKIxWavZPViVm8h3KUQu86uy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/QT4Ylgp4kge7FJyqLdxwOXhHsdijZuKotUvQu0Hk.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/Su8sYbywjmNjcenLXOYBd5A7CwcZhEGFLQhRPTto.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/Y4ASKpHQ8hV1gdaCdZTQ0L5kNtGjAnXX92egy3b3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/jJHvPH15P2dafA5P4OoWqvfPfwbRjuSq42eScVd5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/doctors/tRDnO0JstPLRV1GOrEGN2BXEAKN3S1GxQ6VgGg5j.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/0WIX0qWfI37kIwxK0JhOcUxz9GdG5GP3YoIG8MJ4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/0t6nF0Xdo6QiwEsJX9CtkgueCW9RUDASrxPC4O2S.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/3au1SftxcTQnZHQkBDtzaVmWYmd8ao74MDAWNIvf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/4qrMUOsYN1zgcZ5Ovmww4xj9ACyNrKhLlN1PbyoF.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/5M9UkMocXvkgLMuZeRLiFt0xPy7HvnC8qkaG8LM2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/8Go1y0xMtWNvGaf4ev0fjkJho5LCihclsqvIZ2FD.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/93ufF7oiBG6LXDSkvimL8SJwK7PmZkK0kzIWgtzy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/ALtY3SC4bZ8qq4RTTcGG0RsGHw3DS2CCvvL7CTDC.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/JIWRU3IreGXT3hmLzOG2V8X1fKkVZ9fLoMxwlymD.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/MuNfU6xeURx3T4UlWSmWlzvbpEiZdynEpOB2VR5H.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/N627b6S7KYWfAyDmgSxmUGXQn0dzXI1MCGQBpqAg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/OEZr4geZ8iBHGMldxpk625ASXlllJNTXSpflVRbf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/Qu0oVQzcF1JvX28EJCFyyCcQRI7rT7eFiJ3hapyV.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/VR3vJloIbzgKqTtLQw3c9jRDeshPvhBgyht6XEG5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/eMKKUTX4Pc4Yyk1CTa7K3920yzOdRTTOF8hg8Lg3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/hTPOv3pZyBCfYKPtcsunKkowcvO6yrFHE0hHWkLp.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/iDJKqrU9TQOWfNW8NrlXZupzo599jpG2se0ulkzI.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/jOwmG4Ph74hlI52jljPEh9s7P2Q1EWgGPc3g1uCM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/kGZjXxBWACJIxd45cMMczDQRnsMlUVpzvAbkPdGU.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/lepEGzVtRp84nEmH4APbfI3xgkyQEfjQkhANggJ4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/pcnkwkIkUZ7rczgpUvSV42eyz8ZkU2T2V1PTQ4gD.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/rvEoAaLWfkeyO6IJbLOdWIAupBFOW0iJ4XkzgyY1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/tr7Ae1NBV3Jg4a4rL1LOrZkE11E219JkX1BdLAKN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/uU3cNH8UIRQ9NVeCtWBUDYOvLogoLIv8edrBNXnD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/ujGGEpd1F9aKsARJSnD35DPut9ijA8ijwiiRF8Yg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/offers/yaQtyAVbzbpGqWaNaa0fOPHYMQbHbOegCM1xEbeB.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/0SvBTS1R4fxkr1yyPj5gCLWj7rCiBADUaoHDScwf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/5Irw3J88ChsgzTzaSpWvV8vX6Y0UfrJNd4Ys0YZY.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/5PdVnX8ab9w8nUo3PSGjHhTDwlJ5uCYuiAkdkt6h.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/CEqDZn2BH7kg3xjl7tV1SBKHoeMMPVligQTlFFwR.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/HjeGjwmhTNO30mKWVtVZCTH2P3e9XV2dVHSloaCi.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/KbODclytVSN2aiZieivLZfrFYriJFYgYU217ZiKI.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/M2IwpbTXkGsxzVIfv9ZwPFouh5FOCv3lYKMD8ZOO.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/NPs1yLZ3u5BSACqtVVvjTItykKHqDgiCmJJVg33n.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/Par6qguL35AhNX80ypKHPDUVfyjUICIdNnmLzSQZ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/VZ23D6NSARnkV43Er2zd6h4TWooIE4gaogtn2xn2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/Y9dAcWtPLkWUgZLgmID7WER9de6lbceoNud9HLtk.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/aEnqQjKuvvElHamwiXOio1nOUtwefLMwNjCn0cR3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/aNPlKtFvT5L6M8zb9CzCVC7hhNTXQJAiiWFqpQCP.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/dRYDXNZPa9Fistu8S1caq0f4j63HON8FpmJReSMs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/e7isQRTvVZ7KbmQTeVClU7HHLYto9XN7KnFueVDK.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/ez4f9RBuinOPwGcd18S29LAQdWzoGtsztN9FtgGa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/svjq0ODWAB77KDXbHBMDn7RbAvNxoiVtRaTCHuuf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/tRgDbFJDB2DqafKDVWmI3DE9YPAzbkvwmU1GvwqI.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/tWfD4vbfYzm5YNLbTSW8eROryjIdZUH82hyhhvUt.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/xugxWM6u0KBfLewQD5Ai1A8ey7uIWhskCxaJ5xba.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/yFGATMSmpB0vLgeNu2bHYHzCVrg1n25sCZI7z8wC.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partners/yeOl6zxd8ckxFQtx0C1cMUmvtGnvSlW67VDuHaAh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/0ZNPCNlZEHDlhYy3EewKwTbLLvma6ZobjdhsKrEV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/0sNZgqEKcoMJ9aFlhcsDw0RXgusT4UqbcFBBfDWs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/1Yw9ODehjnLckRBb5JeuiKVAsojr4IEyfpJiqZS4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/3sxCpGabGhxfq2mKhuqBPBttzqwQteJ4yjU4br82.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/52yf185TxplFxy5NiKJmMjm02lFSNe5GHAwLfsT9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/5jlyVtaASPEt2Euax4KTGXVznnYvUqhdTTbh1IbH.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/82tJ0wSSrGoxbhDwFQebc0jWasZzGK7w3mxw9cjo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/8Kt1nGOK1dnUQ59KcEDuK8QwN6XFIe9Csc7wHiv3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/CTGD4t7Ij87SXoSxZg3QTDZJyf42Ifr79vgxV0Jh.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/HMOECixvPfpaCo41RD7MScTyug4PCL0HbBZzIimH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/KkEbTUgI1S1oqG2ZtbHeuhx3XddQrGfu2Xjo73E5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/Nm6bZSuLUaoE1uK8o6CaZ6Q9prcsC23YZpyKebMw.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/P2vANL2lfLmbzURpSgrqETJbohTqWpCW7WVuri68.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/QoAu4vXqyeXYiDjkxbL8jtgTRJbCsE3hYZjYJHLN.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/SFDgbgkJ9cHqChqn6ngpkmb9WHon48QN8t1o174f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/TgNlZ3nioYPjjPdkZPNf3BtjYdB1t4A7MDGRpnFr.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/UPxBI0aqzhMKTQrz3DA53hV320k9TG3Ci4VorfaF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/Xdv4kCm0ts7jACd9yKwmpZVEnw2YiTYjuHBLhvs1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/cZbVQ6luNbqiUkCIC62vHGYq5B0N0MCHwK8voPBT.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/egDRuz0BWF8PJayB7lrNxWNKahjEbGPGFRULG60v.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/fzVmLY952fVOgaOacoIRHWTINSoOyUyDwKat8Fmq.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/gQ7sb7vR6SXLbZrbTYDKBPuPSzhZFCuR93cF2IUZ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/h92AKEmCskYz7SWAZk12ZiZi9D83KeBTARbryVaV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/h9mxJr8WxpdIof3g14wldSQgYxdIpQGL81Rlu1LT.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/hRAYbhpVHRzwvP4y5IRF6xM60jHVuNPyA1IcVW7F.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/kaNAhbGUN9PMtiV2xrgOs0agLU47vDAlVWcQcqbn.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/l7GQpwmBgJ2AVDjbgHd69I96WGI3xHBciNzuswp5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/lKHycg3Ec5MnQLMngqKVuOv8FK8RjcG9csbYPQPU.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/sw0eHxdDdrpJwQIu5Lx2Aa5RwdmjohJcIUE8cJNV.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/uN4BE8XLA7pCYFRak75OvXBT9SsLOH4wG3Uuyv25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/xRQObcCsKmVNoMnxWG9kjYyQc9thAKvSYCe5Q1Iv.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sliders/RVww02giMsmueTtopxC1LXvrblvPk3wJPe8ei8sF.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sliders/kaGgxi0JiJSPbPA90hwWEy4O1Kp9WdrvamZlDQVH.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/statistics/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/statistics/patient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/statistics/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/statistics/visitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teams/L0QyZeBSTXamvrUm9TwlmT7RUzCu1bjLObA5y9eL.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonials/leTazCqMxd6a4T7whKsRWkVcV5PWFw30zqXmIiNG.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonials/uUKxI5xRZzsDSQKA1NONqC1sZHpSe7qQDtXgmS45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/users/TCvlzdt6LMm5qErP5uuWZMkWd6LTz5jeFi45Opcj.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/site/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_16_123149_create_carts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_16_123149_create_carts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_16_123216_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_16_123216_create_comments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_16_123310_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_16_123310_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/comments/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/includes/footer-area.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/includes/footer-area.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/includes/navbar-area.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/includes/navbar-area.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/uxweb/sweet-alert" />
+      <path value="$PROJECT_DIR$/vendor/realrashid/sweet-alert" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1kN22HZACRqY0JCibO4CdNAvwJH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/site/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\eunoia\resources\views\site\includes" />
+      <recent name="C:\xampp\htdocs\eunoia\app\Http\Controllers\Site" />
+      <recent name="C:\xampp\htdocs\eunoia\app\Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\eunoia\assets\site\js" />
+      <recent name="C:\xampp\htdocs\eunoia\resources\views\site" />
+      <recent name="C:\xampp\htdocs\eunoia\resources\views\admin" />
+      <recent name="C:\xampp\htdocs\eunoia\resources\views\layouts" />
+      <recent name="C:\xampp\htdocs\eunoia\resources\lang" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.ProductsController.php">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductsController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductsController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.ProductsController.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5ec7d2f-a79a-4988-8753-b6648bea9a4e" name="Default Changelist" comment="" />
+      <created>1605526520176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605526520176</updated>
+      <workItem from="1605526521280" duration="27185000" />
+      <workItem from="1605689243293" duration="19663000" />
+      <workItem from="1605869609887" duration="11570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605874963888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605874963888" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605712143005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605712143005" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605870244098">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1605870244098" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1605690820607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605690820607" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605696967456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605696967456" />
+  </component>
+</project>
